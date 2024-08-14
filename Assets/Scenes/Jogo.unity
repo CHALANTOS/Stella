@@ -217,9 +217,10 @@ GameObject:
   m_Component:
   - component: {fileID: 759125999}
   - component: {fileID: 759125998}
-  - component: {fileID: 759125997}
   - component: {fileID: 759125996}
+  - component: {fileID: 759125997}
   - component: {fileID: 759126000}
+  - component: {fileID: 759126001}
   m_Layer: 0
   m_Name: Stella
   m_TagString: Player
@@ -244,7 +245,7 @@ MonoBehaviour:
   speed: 5
   speedMultiplier: 1
   jumpForce: 5
-  dashForce: 15
+  dashForce: 10
   cooldownJump: 2
   quantidadePulos: 3
   podeAndar: 1
@@ -311,12 +312,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 359946780, guid: d68ab5e333ed5d145875f29f273e9a86, type: 3}
+  m_Sprite: {fileID: -1035939752, guid: 04f30aaf621c0754b946f98bf6cae2b0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 2.15625, y: 1.375}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -330,7 +331,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 759125995}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -3, z: 0}
+  m_LocalPosition: {x: -0.03, y: -2.37, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -350,9 +351,30 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.013332725, y: 0.44887006}
-  m_Size: {x: 0.5644628, y: 1.0266654}
+  m_Offset: {x: -0.23683557, y: -0.14932883}
+  m_Size: {x: 0.525021, y: 0.98722386}
   m_Direction: 0
+--- !u!95 &759126001
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 759125995}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1739f33e8b3822947a2b38a16d51aa84, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1191935397
 GameObject:
   m_ObjectHideFlags: 0
